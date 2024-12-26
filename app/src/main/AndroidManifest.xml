@@ -13,7 +13,7 @@
         <activity
             android:exported="true"
             android:launchMode="singleTask"
-            android:name=".MainActivity"
+            android:name=".CourseListActivity"
             android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -24,18 +24,18 @@
         <!-- DialogModal Activity -->
         <activity
             android:exported="true"
-            android:name=".DialogModal"
+            android:name=".CourseEditActivity"
             android:theme="@android:style/Theme.Dialog" />
 
         <!-- Detail Activity -->
         <activity
             android:exported="true"
-            android:name=".Detail"
+            android:name=".CourseDetailActivity"
             android:theme="@style/Theme.Schedule" /> <!-- 確保這裡的 theme 是正確的 -->
 
         <activity
             android:exported="true"
-            android:name=".MapActivity"
+            android:name=".CampusMapActivity"
             android:theme="@style/Theme.Schedule" /> <!-- 替換為適合你的主題 -->
 
     </application>

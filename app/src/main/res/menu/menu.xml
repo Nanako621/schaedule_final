@@ -2,20 +2,18 @@
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <!-- 新增的第二個 Item -->
-    <item
-        android:id="@+id/action_settings"
-        android:title="设置"
-        android:icon="@android:drawable/ic_menu_preferences"
-        app:showAsAction="ifRoom">
-    </item>
-    <!-- 第一個 Item -->
+
+    <!-- 新增課程 -->
     <item
         android:id="@+id/action_menu"
-        android:title="添加课程"
+        android:title="新增課程"
         android:icon="@android:drawable/ic_input_add"
-        app:showAsAction="ifRoom">
-    </item>
+        app:showAsAction="ifRoom"/>
 
-
+    <!-- 設定 (如地圖功能) -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="設定"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="ifRoom"/>
 </menu>
