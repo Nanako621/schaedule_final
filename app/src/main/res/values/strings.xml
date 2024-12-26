@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">schedule</string>
+
+    <string-array name="day">
+        <item>
+            --請選擇--
+        </item>
+        <item>
+            星期一
+        </item>
+        <item>
+            星期二
+        </item>
+        <item>
+            星期三
+        </item>
+        <item>
+            星期四
+        </item>
+        <item>
+            星期五
+        </item>
+        <item>
+            星期六
+        </item>
+        <item>
+            星期日
+        </item>
+    </string-array>
+
+    <string-array name="time">
+        <item>
+            --請選擇--
+        </item>
+        <item>
+            1-2節课
+        </item>
+        <item>
+            3-4節课
+        </item>
+        <item>
+            5-6節课
+        </item>
+        <item>
+            7-8節课
+        </item>
+        <item>
+            9-10節课
+        </item>
+    </string-array>
+</resources>
